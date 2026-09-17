@@ -4,11 +4,10 @@
 
 | | Virtual Machines | Containers |
 |---|---|---|
-| **What it runs** | Its own full operating system | Shares the host operating system |
-| **Start time** | Minutes | Seconds |
-| **Size** | Several gigabytes | Just megabytes |
-| **Resources** | Uses a lot of RAM and CPU | Very light and efficient |
-| **Isolation** | Completely separate system | Separate apps, same kernel |
+| **Architecture** | Runs its own full operating system | Shares the host operating system kernel |
+| **Boot Time** | Minutes — boots a complete OS | Seconds — starts only the application |
+| **Resource Use** | Heavy — several GB of RAM per VM | Lightweight — MBs of RAM per container |
+| **Isolation** | Hardware-level — fully separate system | Process-level — separate apps, same kernel |
 
-## Why Containers Are Better for Cloud
-Containers are much lighter and faster. Because they share the host OS, they don't need to boot a whole new system every time. This saves money, runs more apps on the same server, and works the same way on every computer — so "it works on my machine" stops being a problem.
+## Why Move to Containers?
+Containers are faster, lighter, and more efficient. Because they share the host OS, they start in seconds instead of minutes and use much less memory. More applications can run on the same server at lower cost. Containers also behave identically everywhere — what works during development works exactly the same in production.
