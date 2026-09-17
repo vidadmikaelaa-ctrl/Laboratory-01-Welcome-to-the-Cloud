@@ -1,13 +1,13 @@
-# Docker Deployment Steps
+# Docker Deployment & Lifecycle
 
 | Command | What It Does |
 |---|---|
-| `docker --version` | Shows which version of Docker is installed |
-| `docker info` | Shows system details about Docker |
-| `docker pull nginx` | Downloads the Nginx web server image |
-| `docker run -d -p 8080:80 nginx` | Starts Nginx in background; connects port 8080 to port 80 |
-| `curl http://localhost:8080` | Checks if the web server is running |
-| `docker ps` | Shows all containers that are currently running |
-| `docker stop [container-id]` | Turns off the running container |
-| `docker ps -a` | Shows every container — running or stopped |
-| `docker rm [container-id]` | Deletes the stopped container permanently |
+| `docker --version` | Confirms Docker is installed — version 29.1.3 |
+| `docker info` | Shows system details: Ubuntu 24.04.4 LTS, 1 CPU, storage driver overlay2 |
+| `docker pull nginx` | Downloads the official Nginx web server image from Docker Hub |
+| `docker run -d -p 8080:80 nginx` | Starts Nginx in detached mode; maps host port 8080 → container port 80 |
+| `curl http://localhost:8080` | Sends request — returns HTML = server is running ✅ |
+| `docker ps` | Lists running containers — showed ID `99de8fbc3d9c` |
+| `docker stop 99de8fbc3d9c` | Gracefully stops the running container |
+| `docker ps -a` | Shows all containers — status changed to **Exited (0)** |
+| `docker rm 99de8fbc3d9c` | Permanently deletes the stopped container |
