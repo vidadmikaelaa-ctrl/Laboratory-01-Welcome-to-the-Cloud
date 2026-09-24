@@ -22,9 +22,7 @@ The project uses KillerCoda Ubuntu and Docker to deploy MinIO. A bucket named `c
 - KillerCoda Ubuntu Playground
 - Docker
 - MinIO Object Storage
-- MinIO Web Console
 - GitHub
-- Google Chrome Web Browser
 - Markdown
 
 ## Skills Learned
