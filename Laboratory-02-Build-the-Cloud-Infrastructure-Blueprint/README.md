@@ -35,6 +35,7 @@ lsblk                   # Check Mounted File Systems
 hostname                # Check Server Name
 ip a                    # Check IP Address
 
+'''
 ## Skills Learned
 Through this mission, I learned how to explore cloud platforms such as AWS, Microsoft Azure, and Google Cloud Platform. I also learned how to use Linux commands to check system information, including the operating system, CPU, memory, and disk space. Additionally, I improved my research, technical documentation, Markdown formatting, and GitHub management skills. This activity helped me understand the importance of cloud infrastructure and how different cloud services can support various applications and organizations.
 
