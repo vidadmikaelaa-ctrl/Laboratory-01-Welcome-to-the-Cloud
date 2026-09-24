@@ -6,9 +6,7 @@ Mikaela Vidad
 
 ## Course and Section
 
-CCM101 – Cloud Computing
-
-Section: ____________________
+BSIT 4M
 
 ## Repository Description
 
