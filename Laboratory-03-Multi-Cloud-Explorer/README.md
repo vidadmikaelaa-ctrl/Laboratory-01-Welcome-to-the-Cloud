@@ -1,5 +1,3 @@
-# Laboratory 03 — Multi-Cloud Explorer
-
 ## Linux Investigation
 
 ### System Information
