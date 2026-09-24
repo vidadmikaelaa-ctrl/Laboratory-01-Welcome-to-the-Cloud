@@ -13,7 +13,7 @@ The following command was used to deploy MinIO. The password is redacted in this
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
 -e "MINIO_ROOT_PASSWORD=[REDACTED]" \
-quay.io/minio/minio server /data --console-address ":9001"
+minio/minio server /data --console-address ":9001"
 ```
 
 ## Deployment Details
@@ -36,7 +36,7 @@ quay.io/minio/minio server /data --console-address ":9001"
 - `--name minio-server`: Gives the Docker container the name `minio-server`.
 - `-e "MINIO_ROOT_USER=cloudadmin"`: Sets the administrator username for MinIO.
 - `-e "MINIO_ROOT_PASSWORD=[REDACTED]"`: Sets the administrator password for MinIO. The real password is not included in this public documentation.
-- `quay.io/minio/minio`: Specifies the MinIO Docker image used in the successful deployment.
+- `minio/minio`: Specifies the MinIO Docker image used in the successful deployment.
 - `server /data`: Starts MinIO as an object storage server using `/data` as its storage location.
 - `--console-address ":9001"`: Configures the MinIO Web Console to use port 9001.
 
