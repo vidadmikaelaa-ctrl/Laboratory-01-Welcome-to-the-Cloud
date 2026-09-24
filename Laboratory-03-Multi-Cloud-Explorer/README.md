@@ -22,4 +22,4 @@ df -h
 - **Amazon Web Services (AWS): Amazon EC2 (Elastic Compute Cloud)** — AWS provides scalable virtual machine instances with official Ubuntu Server images. You select an Ubuntu AMI, choose your CPU and memory size, and launch your server — the     same Linux environment runs unchanged.
 - **Microsoft Azure: Azure Virtual Machine** — Azure offers pre-configured Ubuntu images. You create a virtual machine, select Ubuntu 24.04 LTS as your operating system, and run your Linux environment identically to KillerCoda.
 - **Google Cloud Platform (GCP): Google Compute Engine (GCE)** — GCE provides official Ubuntu images from Canonical. You create a VM instance, pick Ubuntu as your OS, and your terminal, commands, and files work exactly as they do in the          KillerCoda playground.
-## All three platforms support Ubuntu Linux fully — every command, file, and process used in this investigation will run without modification in the cloud.
+# All three platforms support Ubuntu Linux fully — every command, file, and process used in this investigation will run without modification in the cloud.
