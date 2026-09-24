@@ -1,5 +1,5 @@
 #  Core Infrastructure Services Comparison
-|---|---|---|---|
+
 
 | Infrastructure Component | Amazon Web Services (AWS) | Microsoft Azure | Google Cloud Platform (GCP) |
 |---|---|---|---|
