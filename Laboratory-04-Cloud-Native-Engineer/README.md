@@ -1,6 +1,5 @@
-# Laboratory Activity 4 — The Cloud-Native Engineer
+# Mission Overview
 
-## Mission Overview
 After completing earlier cloud projects, I explored cloud-native engineering and containers. This activity covered the differences between Virtual Machines and Containers, then used Docker in the KillerCoda Playground to deploy, verify, and manage an Nginx web server.
 
 ## Objectives
