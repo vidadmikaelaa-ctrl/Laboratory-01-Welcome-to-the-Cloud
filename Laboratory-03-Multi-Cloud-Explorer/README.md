@@ -6,7 +6,6 @@
 - **Memory**: 1.9 GiB total
 - **Disk Space**: 19 GB total (8.9 GB free)
 
-```
 ### If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?
 - **Amazon Web Services (AWS): Amazon EC2 (Elastic Compute Cloud)** — AWS provides scalable virtual machine instances with official Ubuntu Server images. You select an Ubuntu AMI, choose your CPU and memory size, and launch your server — the     same Linux environment runs unchanged.
 - **Microsoft Azure: Azure Virtual Machine** — Azure offers pre-configured Ubuntu images. You create a virtual machine, select Ubuntu 24.04 LTS as your operating system, and run your Linux environment identically to KillerCoda.
