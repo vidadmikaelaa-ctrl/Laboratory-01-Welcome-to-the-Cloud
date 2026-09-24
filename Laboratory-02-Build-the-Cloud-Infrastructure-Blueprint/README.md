@@ -34,3 +34,11 @@ df -h                   # Check Disk Capacity
 lsblk                   # Check Mounted File Systems
 hostname                # Check Server Name
 ip a                    # Check IP Address
+
+## Skills Learned
+Through this mission, I learned how to explore cloud platforms such as AWS, Microsoft Azure, and Google Cloud Platform. I also learned how to use Linux commands to check system information, including the operating system, CPU, memory, and disk space. Additionally, I improved my research, technical documentation, Markdown formatting, and GitHub management skills. This activity helped me understand the importance of cloud infrastructure and how different cloud services can support various applications and organizations.
+
+## Challenges Encountered
+During the activity, some challenges were encountered while researching cloud services and executing Linux commands. Understanding the differences between AWS, Microsoft Azure, and Google Cloud Platform required careful reading of official documentation. Identifying equivalent services between cloud providers was also challenging because each platform uses different service names and features.
+Another challenge was using Linux terminal commands to gather system information and understand the displayed results. Organizing the research findings, screenshots, and Markdown files in the correct GitHub repository also required attention to file names and folder structure.
+These challenges were addressed by reviewing official documentation, carefully executing the required commands, checking the results, and organizing the files according to the laboratory instructions.
