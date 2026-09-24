@@ -6,13 +6,6 @@
 - **Memory**: 1.9 GiB total
 - **Disk Space**: 19 GB total (8.9 GB free)
 
-### Commands Used
-```bash
-cat /etc/os-release
-lscpu
-free -h
-df -h
-
 ```
 ### If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?
 - **Amazon Web Services (AWS): Amazon EC2 (Elastic Compute Cloud)** — AWS provides scalable virtual machine instances with official Ubuntu Server images. You select an Ubuntu AMI, choose your CPU and memory size, and launch your server — the     same Linux environment runs unchanged.
