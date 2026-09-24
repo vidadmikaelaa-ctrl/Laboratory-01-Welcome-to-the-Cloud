@@ -1,6 +1,6 @@
-# Linux Investigation
+# Laboratory 03 – Multi-Cloud Explorer
 
-### System Information
+### Linux Investigation
 - **Operating System**: Ubuntu 24.04 LTS
 - **CPU Information**: 1–2 virtual cores
 - **Memory**: 1.9 GiB total
