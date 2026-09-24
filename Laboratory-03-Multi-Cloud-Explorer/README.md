@@ -1,4 +1,4 @@
-## Linux Investigation
+# Linux Investigation
 
 ### System Information
 - **Operating System**: Ubuntu 24.04 LTS
