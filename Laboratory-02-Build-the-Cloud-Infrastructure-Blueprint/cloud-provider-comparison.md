@@ -1,6 +1,6 @@
 #  Core Infrastructure Services Comparison
 
-
+###
 | Infrastructure Component | Amazon Web Services (AWS) | Microsoft Azure | Google Cloud Platform (GCP) |
 |---|---|---|---|
 | **Compute** | Amazon EC2 (Elastic Compute Cloud) | Azure Virtual Machines | Google Compute Engine (GCE) |
