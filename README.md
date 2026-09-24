@@ -1,5 +1,3 @@
-# Cloud Computing Portfolio
-
 ## Mikaela Vidad
 
 ## BSIT 4M
