@@ -1,4 +1,4 @@
-# Laboratory 02 – Build the Cloud Infrastructure Blueprint
+  # Laboratory 02 – Build the Cloud Infrastructure Blueprint
 
 ## Mission Overview
 This laboratory activity simulates the planning phase of a cloud deployment. As a newly onboarded cloud engineer at CloudNova Technologies, I investigated a live Linux cloud environment, identified infrastructure components, compared major cloud providers, and prepared technical documentation to guide future deployments.
