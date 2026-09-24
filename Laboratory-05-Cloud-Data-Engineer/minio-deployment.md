@@ -1,10 +1,6 @@
 
 # MinIO Deployment Documentation
 
-## Overview
-
-This document describes the deployment of MinIO, an S3-compatible Object Storage server, using Docker in a KillerCoda Ubuntu Playground. The MinIO Web Console was accessed through port 9001, and a bucket named `client-photos` was created for storing a sample file.
-
 ## Docker Command Used
 
 The following command was used to deploy MinIO. The password is redacted in this public documentation for security.
@@ -39,32 +35,3 @@ minio/minio server /data --console-address ":9001"
 - `minio/minio`: Specifies the MinIO Docker image used in the successful deployment.
 - `server /data`: Starts MinIO as an object storage server using `/data` as its storage location.
 - `--console-address ":9001"`: Configures the MinIO Web Console to use port 9001.
-
-## Accessing the MinIO Console
-
-The MinIO Web Console was accessed through port 9001. After logging in, the `client-photos` bucket was created through the MinIO interface.
-
-## Bucket and File Upload
-
-The bucket created for the activity was:
-
-```text
-client-photos
-```
-
-A sample file was uploaded successfully to the bucket using the MinIO Web Console.
-
-## Verification
-
-The deployment was verified using the following command:
-
-```bash
-docker ps
-```
-
-The output showed that the `minio-server` container was running.
-
-## Screenshots
-
-- `screenshots/minio-deployed.png`
-- `screenshots/minio-bucket-upload.png`
