@@ -19,7 +19,7 @@ This laboratory activity simulates the planning phase of a cloud deployment. As 
 - **KillerCoda Playground** — Linux terminal environment
 - **GitHub** — Version control and portfolio hosting
 - **Markdown** — Technical documentation formatting
-- **Diagrams.net** — Cloud architecture diagram design
+- **Draw.io** — Cloud architecture diagram design
 
 ## Linux Commands Executed
 ```bash
