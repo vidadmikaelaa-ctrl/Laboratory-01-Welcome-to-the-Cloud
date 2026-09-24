@@ -1,4 +1,4 @@
-## Mikaela Vidad
+## VIDAD, MIKAELA D.
 
 ## BSIT 4M
 
