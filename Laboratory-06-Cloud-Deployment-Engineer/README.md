@@ -1,18 +1,19 @@
-# Laboratory 04 — Cloud Native Engineer
+# Laboratory 06 — Cloud Deployment Engineer
 
 ## Mission Overview
-This laboratory demonstrates how to deploy a cloud-native application stack using Docker Compose. We set up Nextcloud as the frontend application with MariaDB as the backend database, running as separate, connected containers — illustrating microservices architecture, container orchestration, and multi-service deployment.
+Building on previous cloud projects, I transitioned from deploying single containers to managing multi-container applications using Docker Compose. This mission deployed a full Nextcloud private cloud stack — a web application paired with a MariaDB database — defined entirely through code in a YAML configuration file. This demonstrates Infrastructure as Code (IaC) and modern multi-tier architecture practices.
 
 ## Objectives
-- Write and use a `docker-compose.yml` file to define multi-container services
-- Deploy Nextcloud and MariaDB containers that communicate with each other
-- Map container ports to the host for web access
-- Manage the full lifecycle: start → verify → access → stop → clean up
-- Document the process with screenshots and technical notes
+- Explain multi-tier application architecture
+- Understand and write a `docker-compose.yml` configuration file
+- Use the nano text editor to create files in Linux
+- Deploy a Nextcloud plus MariaDB stack using Docker Compose
+- Document procedures and IaC principles in Markdown
+- Maintain a professional GitHub cloud computing portfolio
 
 ## Commands Executed
 ```bash
-mkdir -p nextcloud-deployment
+mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
 docker-compose up -d
