@@ -25,3 +25,4 @@ docker compose exec -T db rm -f "$TEMP_SQL"
 find backups -type f -name 'mysql-*.sql.gz' -mtime +7 -delete
 
 echo "Backup completed: $BACKUP"
+ 
