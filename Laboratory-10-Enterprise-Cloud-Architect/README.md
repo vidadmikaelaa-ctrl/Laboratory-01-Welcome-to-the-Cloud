@@ -11,5 +11,5 @@ CCM101 — Cloud Computing
 - `final-reflection.md`
 
 ## Access
-- Web: `http://<YOUR-VM-IP>:8080`
+- Web: `http://<VM-IP>:8080`
 - KillerCoda: Web Preview → Port 8080
