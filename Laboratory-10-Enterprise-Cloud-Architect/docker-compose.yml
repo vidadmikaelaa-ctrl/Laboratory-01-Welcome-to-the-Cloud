@@ -1,0 +1,40 @@
+```yaml
+version: '3.9'
+
+networks:
+  cloudnova-network:
+    driver: bridge
+
+volumes:
+  db_data:
+
+services:
+  db:
+    container_name: cloudnova-db
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: ChangeThisPassword123!
+      MYSQL_ROOT_PASSWORD: ChangeRootPassword123!
+    networks:
+      - cloudnova-network
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+
+  wordpress:
+    container_name: cloudnova-wordpress
+    image: wordpress:php8.3-apache
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: ChangeThisPassword123!
+    networks:
+      - cloudnova-network
+    ports:
+      - "8080:80"
+    restart: always
