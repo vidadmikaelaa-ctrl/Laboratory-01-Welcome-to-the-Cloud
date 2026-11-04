@@ -29,7 +29,7 @@ chmod +x automation-script.sh
 ls -lh backups/
 
 `Daily backup at 2:00 AM`
-(crontab -l 2>/dev/null; echo "0 2 * * * /root/Laboratory-10-Enterprise-Cloud-Architect/automation-script.sh") | crontab -
+(crontab -l 2>/dev/null; echo "0 2 * * * /root/Laboratory-10-Enterprise-Cloud-Architect/automation-script.sh")
 crontab -l
 
 ## 5. Restore from Backup
