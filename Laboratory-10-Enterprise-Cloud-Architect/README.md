@@ -1,23 +1,15 @@
-# Mission 10 — Enterprise Cloud Architect
-**Project:** CloudNova — WordPress + MySQL Multi-Tier Stack
+# Laboratory 10 — Enterprise Cloud Architect
+CloudNova Multi-Tier WordPress Stack
+CCM101 — Cloud Computing
 
-## Stack Overview
-- **Frontend:** WordPress (PHP 8.3 / Apache)
-- **Backend:** MySQL 8.4 Database
-- **Platform:** Docker + Docker Compose
-- **Networking:** Isolated Docker bridge network
-- **Persistence:** Named volume for database data
-- **Security:** UFW — Default Deny, minimum ports exposed
-- **Automation:** Daily backups at 02:00 AM via Cron
+## Repository Contents
+- `README.md`
+- `architecture-diagram.png`
+- `docker-compose.yml`
+- `automation-script.sh`
+- `operational-manual.md`
+- `final-reflection.md`
 
-## Quick Start
-```bash
-# Clone repository
-git clone https://github.com/YOUR-USERNAME/CCM101-jcosstales.git
-cd CCM101-jcosstales/Laboratory-10-Enterprise-Cloud-Architect
-
-# Launch the stack
-docker-compose up -d
-
-# Check status
-docker-compose ps
+## Access
+- Web: `http://<YOUR-VM-IP>:8080`
+- KillerCoda: Web Preview → Port 8080
